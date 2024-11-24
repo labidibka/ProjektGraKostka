@@ -20,6 +20,11 @@
                 <Slider x:Name="liczbakostek" Minimum="1" Maximum="6" Value="1" Width="150" TickFrequency="1" IsSnapToTickEnabled="True"></Slider>
                 <TextBlock x:Name="liczbakostektext" Text="1" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
             </StackPanel>
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,20">
+                <TextBlock Text="Liczba Scian (1-10):" VerticalAlignment="Center" Margin="0,0,10,0"></TextBlock>
+                <Slider x:Name="liczbascian" Minimum="4" Maximum="10" Value="4" Width="150" TickFrequency="1" IsSnapToTickEnabled="True"></Slider>
+                <TextBlock x:Name="liczbasciantext" Text="4" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Window>
