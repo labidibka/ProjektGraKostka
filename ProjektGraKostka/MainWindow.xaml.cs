@@ -54,8 +54,11 @@ namespace ProjektGraKostka
                 {
                     kostka.Source = new BitmapImage();
                 }
+                pokazwynik.Children.Add(kostka);
                 
             }
+            _wynikcalkowity += _Wynik;
+            calkowitaliczbapunktow.Text = $"Suma punktow: {_wynikcalkowity}";
         }
 
         private void resetujwynik_click(object sender, RoutedEventArgs e) 
