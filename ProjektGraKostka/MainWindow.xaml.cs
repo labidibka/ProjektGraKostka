@@ -42,6 +42,18 @@ namespace ProjektGraKostka
                 int rzut = _random.Next(1, sciany + 1);
                     _Wynik += rzut;
 
+                Image kostka = new Image();
+                kostka.Width = 50;
+                kostka.Height = 50;
+
+                if (sciany >= 4 && sciany <= 10)
+                {
+                    kostka.Source = new BitmapImage();
+                }
+                else
+                {
+                    kostka.Source = new BitmapImage();
+                }
                 
             }
         }
