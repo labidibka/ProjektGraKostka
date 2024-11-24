@@ -15,7 +15,9 @@
         <TextBlock Text="Gra w kości Autor: Jakub Labuda"
                    Foreground="#A52A2A" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center" Margin="0,10,0,20"/>
         <StackPanel Orientation="Vertical" Grid.Row="1">
-            
+            <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
+                <TextBlock Text="Liczba Kostek:" VerticalAlignment="Center" Margin="0,0,10,0"></TextBlock>
+            </StackPanel>
         </StackPanel>
     </Grid>
 </Window>
