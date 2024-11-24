@@ -25,6 +25,12 @@
                 <Slider x:Name="liczbascian" Minimum="4" Maximum="10" Value="4" Width="150" TickFrequency="1" IsSnapToTickEnabled="True"></Slider>
                 <TextBlock x:Name="liczbasciantext" Text="4" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
             </StackPanel>
+
+            <WrapPanel x:Name="pokazwynik" HorizontalAlignment="Center" Margin="0,20"></WrapPanel>
+        </StackPanel>
+
+        <StackPanel>
+            
         </StackPanel>
     </Grid>
 </Window>
