@@ -11,14 +11,21 @@ using System.Windows.Shapes;
 
 namespace ProjektGraKostka
 {
-    /// <summary>
-    /// Interaction logic for MainWindow.xaml
-    /// </summary>
+    
     public partial class MainWindow : Window
     {
+        private Random _random = new Random();
+        private int _wynikcalkowity = 0;
         public MainWindow()
         {
             InitializeComponent();
+            UpdateInterfejsu();
+           
+        }
+        private void UpdateInterfejsu() 
+        {
+            liczbakostektext.Text = liczbakostek.Value.ToString("F0");
+            liczbasciantext.Text = liczbascian.Value.ToString("F0");
         }
     }
 }
