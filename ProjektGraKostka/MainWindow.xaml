@@ -18,6 +18,7 @@
             <StackPanel Orientation="Horizontal" Margin="0,0,0,10">
                 <TextBlock Text="Liczba Kostek:" VerticalAlignment="Center" Margin="0,0,10,0"></TextBlock>
                 <Slider x:Name="liczbakostek" Minimum="1" Maximum="6" Value="1" Width="150" TickFrequency="1" IsSnapToTickEnabled="True"></Slider>
+                <TextBlock x:Name="liczbakostektext" Text="1" Margin="10,0,0,0" VerticalAlignment="Center"></TextBlock>
             </StackPanel>
         </StackPanel>
     </Grid>
