@@ -27,5 +27,27 @@ namespace ProjektGraKostka
             liczbakostektext.Text = liczbakostek.Value.ToString("F0");
             liczbasciantext.Text = liczbascian.Value.ToString("F0");
         }
+
+        private void rzuckostka_click(object sender, RoutedEventArgs e) 
+        {
+            int liczba_kostek = (int)liczbakostek.Value;
+            int sciany = (int)liczbascian.Value;
+
+            pokazwynik.Children.Clear();
+
+            int _Wynik = 0;
+
+            for (int i = 0; i < liczba_kostek; i++) 
+            {
+                int rzut = _random.Next(1, sciany + 1);
+                    _Wynik += rzut;
+
+                
+            }
+        }
+
+        private void resetujwynik_click(object sender, RoutedEventArgs e) 
+        {
+        }
     }
 }
