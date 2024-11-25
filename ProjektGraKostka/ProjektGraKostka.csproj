@@ -8,4 +8,20 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Images\Default.jpg" />
+    <None Remove="Images\kostka1.png" />
+    <None Remove="Images\kostka2.png" />
+    <None Remove="Images\kostka3.png" />
+    <None Remove="Images\kostka4.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Default.jpg" />
+    <Content Include="Images\kostka1.png" />
+    <Content Include="Images\kostka2.png" />
+    <Content Include="Images\kostka3.png" />
+    <Content Include="Images\kostka4.png" />
+  </ItemGroup>
+
 </Project>
